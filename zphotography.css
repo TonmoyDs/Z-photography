@@ -42,15 +42,21 @@ header .header-menu nav ul li a{
 	text-shadow: 1px 1px blue;
 	font-size: 25px;
 }
+header .header-menu nav ul li a:hover{
+	color: #4175fc;
+}
 header .header-social-icons{
 	text-align: center;
 	padding-top: 10px;
 }
 header .header-social-icons i{
 	padding: 15px;
-	font-size: 15px;
+	font-size: 20px;
 	color: #fff;
 	text-shadow: 1px 1px blue;
+}
+header .header-social-icons i:hover{
+	color:#4175fc ;
 }
 #home-top-part .top-name h2{
 	color: #fff;
@@ -110,6 +116,9 @@ header{
 	color: #fff;
 	font-family: cinzel;
 }
+#inventual-info .all-year-des{
+	display: flex;
+}
 #inventual-info .year-info{
 	padding-right: 50px;
 }
@@ -156,12 +165,139 @@ header{
 	height: 100%;
 	padding: 20px;
 }
-#img-gellary-part .gellary-tittle {
+#img-gellary-part{
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+#perform-in-theater .theater{
+	display: flex;
+	margin-bottom: 100px;
+}
+#perform-in-theater .theater .theater-tittle h3{
+	font-family:roboto ;
+	font-weight: 400;
+	color: #4175fc;
+	letter-spacing: 2px;
+}
+#perform-in-theater .theater .theater-held-year h2{
+	font-size: 40px;
+	color: #fff;
+	font-family: cinzel;
+	font-weight: 400;
+	max-width: 700px;
+}
+#perform-in-theater .theater .year-with-info{
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#perform-in-theater .theater .year-with-info .theater-year h3{
+	font-size: 40px;
+	color: #4175fc;
+	font-family: cinzel;
+	font-weight: 400;
+}
+#perform-in-theater .theater .year-with-info .theater-info h2{
+	font-size: 40px;
+	color: #fff;
+	font-family: cinzel;
+	font-weight: 400;
+}
+#perform-in-theater .theater .year-with-info .theater-info h3{
+	font-family:roboto ;
+	font-weight: 400;
+	color: #ccc;
+}
+#Upcoming-programs .upcoming-show{
+	display: flex;
+	margin-bottom: 100px;
+}
+#Upcoming-programs .upcoming-show-details h3{
+	font-family:roboto ;
+	font-weight: 400;
+	color: #4175fc;
+	letter-spacing: 2px;
+}
+#Upcoming-programs .upcoming-show-details h2{
+	font-size: 40px;
+	color: #fff;
+	font-family: cinzel;
+	font-weight: 400;
+}
+#Upcoming-programs .upcoming-show-details .show-details{
+	display: flex;
+}
+#Upcoming-programs .upcoming-show-details .show-details .show-info{
+	margin: 20px;
+	border-right: 1px solid #3b4244;
+}
+#Upcoming-programs .upcoming-show-details .show-details .show-info h4{
+	font-family:roboto ;
+	font-weight: 400;
+	color: #ccc;
+}
+#Upcoming-programs .upcoming-show-details .show-details .show-date h1 {
+	font-size: 30px;
+	color: #4175fc;
+	font-family: cinzel;
+	font-weight: 400;
+} 
+#Upcoming-programs .upcoming-show-details .ticket-button h3 a{
+	text-decoration: none;
+	color:#4175fc ;
+	font-family: roboto;
+	font-weight: 400;
+}
+footer{
+	background: #3b4244;
+	padding: 100px 50px;
+}
+footer .update-tittle h3{
+	font-family:roboto ;
+	font-weight: 400;
+	color: #4175fc;
+	letter-spacing: 2px;
+	text-align: center;
+}
+footer .update-tittle h2{
+	font-size: 35px;
+	color: #fff;
+	font-family: cinzel;
+	font-weight: 400;
+	text-align: center;
+}
+footer .update-tittle .email-adder{
+	text-align: center;
+}
+footer .update-tittle .email-adder input{
+	height: 30px;
+	width:400px ;
+	font-size: 20px;
+	color: #000;
+	border-radius: 5px;
+	border: none;
 	
 }
-
-
-
+::placeholder{
+	font-size: 17px;
+	font-family: roboto;
+	color: #000;
+	font-weight: 300;
+	vertical-align: center;
+}
+footer .update-tittle .email-adder button{
+	font-size: 16px;
+	font-family: roboto;
+	font-weight: 300;
+	color: #000;
+	padding: 5px;
+	background: none;
+	border: 1px solid #000;
+}
+footer .update-tittle .email-adder button:hover{
+	background: #fff;
+	border: none;
+}
 
 /*Responsive css from here*/
 @media (min-width:320px) and (max-width:480px){
